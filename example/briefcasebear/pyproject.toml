@@ -1,0 +1,35 @@
+[tool.briefcase]
+project_name = "Briefcase Bear"
+bundle = "dev.thunstrom.piper"
+version = "0.0.1"
+url = "https://piper.thunstrom.dev/briefcasebear"
+license = "Proprietary"
+author = 'Piper Thunstrom'
+author_email = "pathunstrom@gmail.com"
+
+[tool.briefcase.app.briefcasebear]
+formal_name = "Briefcase Bear"
+description = "A tiny video game."
+icon = "src/briefcasebear/resources/briefcasebear"
+sources = ['src/briefcasebear']
+requires = [
+    'ppb~=0.8.0',
+]
+
+
+[tool.briefcase.app.briefcasebear.macOS]
+requires = []
+
+[tool.briefcase.app.briefcasebear.linux]
+requires = []
+system_requires = []
+
+[tool.briefcase.app.briefcasebear.windows]
+requires = []
+
+# Mobile deployments
+[tool.briefcase.app.briefcasebear.iOS]
+requires = []
+
+[tool.briefcase.app.briefcasebear.android]
+requires = []
