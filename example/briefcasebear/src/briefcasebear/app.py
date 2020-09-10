@@ -5,8 +5,7 @@ import ppb
 
 
 class BriefcaseBear(ppb.BaseScene):
-    def __init__(self, **props):
-        super().__init__(**props)
+    def on_scene_started(self, event, signal):
 
         self.add(ppb.Sprite(
             image=ppb.Image('briefcasebear/resources/briefcasebear.png'),
