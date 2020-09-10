@@ -13,7 +13,7 @@ description = "A tiny video game."
 icon = "src/briefcasebear/resources/briefcasebear"
 sources = ['src/briefcasebear']
 requires = [
-    'https://github.com/ppb/pursuedpybear.git',
+    'git+https://github.com/ppb/pursuedpybear.git',
 ]
 
 
